@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import logo from "../../media/logo.jpg";
+import "./Textarea.css";
 
 class Textarea extends Component {
   constructor(props) {
@@ -34,6 +36,9 @@ class Textarea extends Component {
 
     return (
       <div>
+          <div className="centered-block">
+            <img className='logo' src={logo} alt="Логотип" />
+          </div>
         <textarea
           value={text}
           onChange={this.handleChange}

@@ -5,12 +5,6 @@ import './index.css';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <div className="centered-block">
-    <h1>ALA-TOO</h1>
-    <img className='logo' src={logo} alt="Логотип" />
-      <App />
-    </div>
-  </React.StrictMode>
-);
+root.render(<>
+    < App/>
+</>);
